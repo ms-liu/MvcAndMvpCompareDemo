@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.demo.ms.mvcandmvpcomparedemo.MainActivity">
+    <item
+        android:id="@+id/action_mvc"
+        android:orderInCategory="100"
+        android:title="@string/action_mvc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mvp"
+        android:orderInCategory="100"
+        android:title="@string/action_mvp"
+        app:showAsAction="never" />
+</menu>

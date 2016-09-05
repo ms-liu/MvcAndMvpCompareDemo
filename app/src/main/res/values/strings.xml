@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MvcAndMvpCompareDemo</string>
+    <string name="action_mvc">MVC模式</string>
+    <string name="action_mvc_desc">\u3000\u3000MVC模式在Android中，Activity相当于Controller，一般的Bean对象相当于Model，
+                            View就是这些Layout、view、widget。一般Android数据处理方式，都是在Activity中进行处理通过一个封装好的数据获取方法来获取数据，
+                            并同时设置给在Activity.onCreate()方法执行时，填充进来的layout或者创建的View/Widget，这样就导致Activity承载的任务过多，
+                            既要控制数据，同时也要控制View层（UI）的显示，使得Model层和View耦合程度高，Activity占比非常重</string>
+    <string name="action_mvp_desc">\u3000\u3000Mvp模式在Android中，Activity、布局（layout）以及控件（widget）都可以认为是view层，只需要负责数据显示，而model层只是简单的用于数据的封装。
+                                    数据的处理会放在Presenter中处理，在Presenter中处理好数据后，可以通过接口(interface)的方式，来与Activity以及View进行交互，
+                                    这样就避免了Activity中代码过于复杂的，相比于传统MVC模式降低了model层和view层的耦合程度，达到了低耦合的目的。虽说相对加大了一定的代码量，
+                                    但是可以使得代码的结构更加的清晰，写代码的思路也是更加的清晰。
+    </string>
+    <string name="action_mvp">MVP模式</string>
+    <string name="main_introduce">该Demo主要目的是进行Mvc与Mvp做一次对比</string>
+    <string name="et_hint_username">请输入用户名</string>
+    <string name="et_hint_pwd">请输入密码</string>
+    <string name="btn_str">保存/Save</string>
+    <string name="btn_str2">清除/Clear</string>
+</resources>

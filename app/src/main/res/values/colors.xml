@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--黑色标题 54 54 54 -->
+    <color name="black_text_title">#363636</color>
+    <color name="black_text_title_b">#525252</color>
+    <color name="black_text_title_tab">#929292</color>
+    <!--灰色标签 162 162 162 -->
+    <color name="gray_text_tag">#A2A2A2</color>
+    <!--灰色描述 138 138 138-->
+    <color name="gray_text_desc">#8A8A8A</color>
+    <!--橙色文字 255 153 51-->
+    <color name="orange_text_color">#FF9933</color>
+    <!--粉色背景 255 153 204-->
+    <color name="pink_background_color">#fe9e9f</color>
+    <color name="blue_background_color">#8bccfb</color>
+    <color name="line_background_color">#e8e8e8</color>
+</resources>
